@@ -1,0 +1,18 @@
+ 
+/* styles.css */
+@media (max-width: 768px) {
+  .responsive-table {
+    overflow-x: auto; /* Allow horizontal scrolling on small devices */
+  }
+
+  .table th,
+  .table td {
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+}
+
+@media (min-width: 769px) {
+  .responsive-table {
+    overflow-x: visible; /* No scrolling on larger screens */
+  }
+}
